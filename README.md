@@ -2,27 +2,25 @@
 
 ## Project Overview
 
-This project presents an interactive Power BI dashboard developed to analyze global energy production, consumption, sustainability trends, economic indicators, and environmental impacts.
+This project is an interactive Power BI dashboard developed to analyze global energy production, consumption, sustainability trends, CO2 emissions, renewable energy adoption, and economic indicators.
 
-The analysis uses the Energy Economics Curated Dataset to explore the relationship between energy systems, renewable energy adoption, CO2 emissions, fuel prices, inflation, and economic development.
-
-The objective of this project is to transform complex global energy and macroeconomic data into meaningful visual insights that can support data-driven decision-making.
+The project uses the Energy Economics Curated Dataset and applies data cleaning, transformation, and visualization techniques to generate meaningful insights into global energy and environmental trends.
 
 ---
 
-## Project Objectives
+## Objectives
 
-1. Analyze global energy production, consumption, and CO2 emissions.
-2. Identify countries with high renewable energy adoption and emissions.
-3. Evaluate different energy sources and fuel categories.
-4. Analyze geographical and regional energy disparities.
-5. Study yearly energy and sustainability trends.
-6. Identify environmentally inefficient nations.
-7. Develop an interactive Power BI dashboard for global energy insights.
+- Analyze global energy production and consumption.
+- Study CO2 emissions across countries and regions.
+- Evaluate renewable energy adoption and energy mix.
+- Identify geographical energy disparities.
+- Analyze yearly energy and sustainability trends.
+- Examine the relationship between energy prices and inflation.
+- Develop an interactive dashboard for global energy insights.
 
 ---
 
-## Tools and Technologies Used
+## Tools and Technologies
 
 - Microsoft Power BI Desktop
 - Power Query
@@ -30,15 +28,14 @@ The objective of this project is to transform complex global energy and macroeco
 - CSV Dataset
 - Data Cleaning and Transformation
 - Data Visualization
-- Business Intelligence
 
 ---
 
 ## Dataset
 
-The project uses the Energy Economics Curated Dataset containing country-level and yearly observations related to global energy and economic indicators.
+The dataset contains country-level and yearly observations related to global energy economics and sustainability.
 
-### Key Attributes
+### Key Features
 
 - Observation Year
 - Country Name
@@ -47,7 +44,6 @@ The project uses the Energy Economics Curated Dataset containing country-level a
 - Energy Consumption
 - CO2 Emissions
 - Renewable Energy Share
-- Renewable Capacity
 - Fuel Prices
 - Inflation
 - GDP and Economic Indicators
@@ -56,14 +52,42 @@ The project uses the Energy Economics Curated Dataset containing country-level a
 
 ## Dashboard Pages
 
-### 1. Global Energy Overview
+### Global Energy Overview
 
-Provides a high-level summary of global energy performance using KPIs, geographical maps, and historical trends.
+Provides a summary of global energy production, consumption, emissions, and renewable energy indicators using KPIs and interactive visualizations.
 
-### 2. Sustainability & Renewable Shift
+### Sustainability & Renewable Shift
 
-Focuses on CO2 emissions, renewable energy adoption, energy mix analysis, and sustainability trends.
+Analyzes CO2 emissions, renewable energy adoption, energy mix, and sustainability trends.
 
+### Economic Impact & Pricing
+
+Examines fuel prices, inflation, and the economic relationship between energy markets and national economies.
+
+---
+
+## Key Insights
+
+- Global energy production and consumption have increased over time.
+- Fossil fuels remain a major component of the global energy mix.
+- Renewable energy adoption is expanding across regions.
+- Energy production and emissions vary significantly by geography.
+- Energy prices influence broader economic indicators such as inflation.
+
+---
+
+## Project Structure
+
+```text
+Global-Energy-Economics-PowerBI/
+│
+├── Dataset/
+│   └── energy_economics_curated.csv
+│
+├── PowerBI/
+│   └── Global_Energy_Economics_Dashboard.pbix
+│
+└── README.md
 ### 3. Economic Impact & Pricing
 
 Analyzes fuel prices, inflation, and the economic impact of energy markets.
